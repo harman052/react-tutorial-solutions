@@ -2,18 +2,18 @@ Solutions to additional problems given in React's "tic tac toe" tutorial.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### How to start the app?
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Go to the app root directory and run: `npm start`
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+It will start the development server. App will open at [http://localhost:3000](http://localhost:3000) in the browser.
 
-### `Useful links`
+The page will reload if you make edits. You will also see any lint errors in the console.
 
-Tutorial page: [React documentation](https://reactjs.org/tutorial/tutorial.html).
+### Useful links
+
+[Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html).

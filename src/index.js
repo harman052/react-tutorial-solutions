@@ -171,14 +171,6 @@ class Game extends React.Component {
 
   toggleMoves = () => {
     const toggle = !this.state.toggle;
-    // const history = this.state.history;
-    // history.sort(function(a, b) {
-    //   if (toggle) {
-    //     return b.moveNumber - a.moveNumber;
-    //   } else {
-    //     return a.moveNumber - b.moveNumber;
-    //   }
-    // });
     this.setState({
       toggle: toggle
     });
