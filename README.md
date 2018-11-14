@@ -1,4 +1,4 @@
-Solutions to additional challenges given in React's "tic tac toe" tutorial.<br><br>
+Solutions to additional challenges given in React's "tic tac toe" tutorial. [Demo](https://harman052.github.io/react-tutorial-solutions/)<br><br>
 In addition to tutorial challenges, reset and play again buttons are added. Technically, both are same. Reset button appears all the time but play again shows up only when game is over (i.e. either draw or win/lose).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
