@@ -129,13 +129,12 @@ class Game extends React.Component {
           win: { player: squares[a], squares: [a, b, c] }
         };
         return result;
-      } else {
-        let tempSq = squares.filter(item => item === null);
-        if (tempSq.length === 0) {
-          result = { status: "draw", win: {} };
-          return result;
-        }
       }
+    }
+    let tempSq = squares.filter(item => item === null);
+    if (tempSq.length === 0) {
+      result = { status: "draw", win: {} };
+      return result;
     }
     return null;
   };
