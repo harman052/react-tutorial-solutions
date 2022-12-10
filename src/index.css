@@ -1,80 +1,80 @@
 body {
-    font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
-  }
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  background-color: rgb(214, 160, 250);
+}
 
-  .active {
-    font-weight: 600;
-  }
+.active {
+  font-weight: 600;
+}
 
-  .inactive {
-    font-weight: normal;
-  }
-  
-  ol, ul {
-    padding-left: 30px;
-  }
-  
-  .board-row:after {
-    clear: both;
-    content: "";
-    display: table;
-  }
-  
-  .status {
-    margin-bottom: 10px;
-  }
-  
-  .square {
-    background: #fff;
-    border: 1px solid #999;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 34px;
-  }
-  
-  .square:focus {
-    outline: none;
-  }
-  
-  .kbd-navigation .square:focus {
-    background: #ddd;
-  }
+.inactive {
+  font-weight: normal;
+}
 
-  .winningSquares {
-    color: #000;
-    background: rgb(142, 252, 99);
-  }
+ol, ul {
+  padding-left: 30px;
+}
 
-  .draw {
-    text-align: center;
-    width: 102px;
-    height: 102px;
-    background-color: #ddd;
-    padding: 20px;
-  }
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
 
-  .win {
-    text-align: center;
-  }
+.status {
+  margin-bottom: 10px;
+}
 
-  .reset {
-    padding: 5px;
-  }
-  
-  .game {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .game-info {
-    margin-left: 20px;
-  }
-  
+.square {
+  background: rgb(223, 188, 253);
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.winningSquares {
+  color: #000;
+  background: rgb(252, 99, 158);
+}
+
+.draw {
+  text-align: center;
+  width: 102px;
+  height: 102px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+.win {
+  text-align: center;
+}
+
+.reset {
+  padding: 5px;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
