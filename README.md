@@ -7,4 +7,6 @@ After forked this project to my Github
 ![second](img/second.png)
 2) Next I picked random country from https://random.country
 ![third](img/france.png)
-
+3) Started to change styles 
+* Changed body,square and buttons color ![color](img/color.png)
+* Made buttons and squares more attractive(added borders and margin) ![btn-sqr](img/btn-sqr.png)
