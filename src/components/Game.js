@@ -1,7 +1,7 @@
 import React from "react";
 import Board from "./Board";
 import "../index.css";
-import {myfunction} from "./Random"
+import log from "./img-second/logo.png"
 
 
 
@@ -311,11 +311,14 @@ class Game extends React.Component {
           <button class="translation" onClick={ () => {alert("content")}}>
           translation
           </button>
+      
 
-    </div>   
+    </div>  
+    <img src={log}></img>
 </div>
     );
   }
   
 }
+
 export default Game;
