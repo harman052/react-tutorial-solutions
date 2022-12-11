@@ -1,6 +1,7 @@
 import React from "react";
 import Board from "./Board";
 import "../index.css";
+import {myfunction} from "./Random"
 
 
 
@@ -234,39 +235,85 @@ class Game extends React.Component {
         
         <h2 class="famous-food">The 5 most famous french foods over the world are:</h2>
         <div class="food">
-        <div id="square">
+         <div id="square">
           <h2 class="txt-croissant"><strongc>frangipane tart</strongc></h2>
-          <a href="https://www.taste.com.au/recipes/apple-frangipane-tart-salted-caramel-sauce/b6be23a8-bdf6-41ba-8d2e-9eb1ed7b92ff" target="_blank">
+           <a href="https://www.taste.com.au/recipes/apple-frangipane-tart-salted-caramel-sauce/b6be23a8-bdf6-41ba-8d2e-9eb1ed7b92ff" target="_blank">
           <button id="croissant"><strong>recipe</strong></button>
           </a>
         </div>
         <div id="square">
           <h2 class="txt-croissant"><strongc>bouillabaisse</strongc></h2>
-          <a href="https://www.taste.com.au/recipes/bouillabaisse-6/7051ec2a-f501-4c86-8848-a054a9ba3ad3" target="_blank">
+           <a href="https://www.taste.com.au/recipes/bouillabaisse-6/7051ec2a-f501-4c86-8848-a054a9ba3ad3" target="_blank">
           <button id="croissant"><strong>recipe</strong></button>
           </a>
         </div>
         <div id="square">
           <h2 class="txt-croissant"><strongc>chicken confit</strongc></h2>
-          <a href="https://www.taste.com.au/recipes/chicken-confit-sauce-vierge/920ec67d-f148-4398-b07b-b8c990eb04a2" target="_blank">
+           <a href="https://www.taste.com.au/recipes/chicken-confit-sauce-vierge/920ec67d-f148-4398-b07b-b8c990eb04a2" target="_blank">
           <button id="croissant"><strong>recipe</strong></button>
           </a>
         </div>
         <div id="square">
           <h2 class="txt-croissant"><strongc>quiche lorraine</strongc></h2>
-          <a href="https://www.taste.com.au/recipes/classic-quiche-lorraine/8e4d2010-2872-4a86-b792-c20d5e09b2c1" target="_blank">
+           <a href="https://www.taste.com.au/recipes/classic-quiche-lorraine/8e4d2010-2872-4a86-b792-c20d5e09b2c1" target="_blank">
           <button id="croissant"><strong>recipe</strong></button>
           </a>
         </div>
         <div id="square">
           <h2 class="txt-croissant"><strongc>souffle</strongc></h2>
-          <a href="https://www.taste.com.au/recipes/roasted-banana-souffles/cabf89de-d610-4a78-85c6-d8af80f8051c" target="_blank">
+           <a href="https://www.taste.com.au/recipes/roasted-banana-souffles/cabf89de-d610-4a78-85c6-d8af80f8051c" target="_blank">
           <button id="croissant"><strong>recipe</strong></button>
           </a>
         </div>
-        </div>
-</div>
+      </div>
+    <div>
+    <h2>French Dictionary</h2>
+          <h3>Japanese to French</h3>
+          <h4>
+          1) こんにちは - добрый день <br></br>
+          <button class="translation" onClick={ () => {alert("bon après-midi")}}>
+          translation
+          </button> <br></br>
+          2) お休みなさい - спокойной ночи <br></br>
+          <button class="translation" onClick={ () => {alert("bonne nuit")}}>
+            translation
+          </button> <br></br>
+          3) お元気ですか - как дела? <br></br>
+          <button class="translation" onClick={ () => {alert("comment ça va")}}>
+            translation
+          </button> <br></br>
+          4) どういたしまして - не за что <br></br>
+          <button class="translation" onClick={ () => {alert("c'est mon plaisir")}}>
+            translation
+          </button> <br></br>
+          5) ごめんなさい - извините <br></br>
+          <button class="translation" onClick={ () => {alert("pardon")}}>
+            translation
+          </button> <br></br>
+          6) がんばります - я буду стараться <br></br>
+          <button class="translation" onClick={ () => {alert("j'essaierai")}}>
+            translation
+          </button> <br></br>
+          7) 宜しく - прошу любить и жаловать <br></br>
+          <button class="translation" onClick={ () => {alert("s'il vous plait aimez et respectez")}}>
+            translation
+          </button> <br></br>
+          8) ちょっと待ってください - подождите, пожалуйста <br></br>
+          <button class="translation" onClick={ () => {alert("attendez s'il vous plaît")}}>
+            translation
+          </button> <br></br>
+          9) けっこうです - спасибо, достаточно <br></br>
+          <button class="translation" onClick={ () => {alert("merci assez")}}>
+            translation
+          </button> <br></br>
+          10) うれしい - радостный <br></br>
+          </h4>
+          <button class="translation" onClick={ () => {alert("content")}}>
+          translation
+          </button>
 
+    </div>   
+</div>
     );
   }
   
