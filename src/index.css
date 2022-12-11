@@ -72,7 +72,7 @@ ol, ul {
 }
 
 .game {
-  display: flex;
+  display: block;
   flex-direction: row;
 }
 
@@ -85,4 +85,50 @@ button {
   border-radius: 10px;
   margin: 2px;
   background-color: rgb(107, 194, 241);
+}
+
+.first-btn {
+  margin-top: 200px;
+  height: 60px;
+}
+
+.random-place {
+  margin-left: 200px;
+  margin-right: 10px;
+}
+
+#square {
+  width: 280px;
+  height: 110px;
+  background: #ffffff;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin: 5px;
+  margin-left: 5px;
+  padding: 0px;
+  box-sizing:border-box;
+  box-shadow: 0 10px 15px grey;
+}
+
+#croissant {
+  margin-left: 85px;
+  margin-top: 5px;
+  height: 30px;
+  width: 100px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.txt-croissant {
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 23px;
+}
+
+.food {
+  display: flex;
+}
+
+h2 {
+  font-size: 25px;
 }

@@ -10,3 +10,4 @@ After forked this project to my Github
 3) Started to change styles 
 * Changed body,square and buttons color ![color](img/color.png)
 * Made buttons and squares more attractive(added borders and margin) ![btn-sqr](img/btn-sqr.png)
+4) Added first buttons, if you click on them you could find recipes of top 5 famous french foods. ![food]{img/recepts.png}

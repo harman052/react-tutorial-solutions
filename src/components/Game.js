@@ -2,6 +2,8 @@ import React from "react";
 import Board from "./Board";
 import "../index.css";
 
+
+
 class Game extends React.Component {
   /**
    * Initial state of the game
@@ -227,10 +229,46 @@ class Game extends React.Component {
             ""
           )}
           <ol>{moves}</ol>
+
         </div>
-      </div>
+        
+        <h2 class="famous-food">The 5 most famous french foods over the world are:</h2>
+        <div class="food">
+        <div id="square">
+          <h2 class="txt-croissant"><strongc>frangipane tart</strongc></h2>
+          <a href="https://www.taste.com.au/recipes/apple-frangipane-tart-salted-caramel-sauce/b6be23a8-bdf6-41ba-8d2e-9eb1ed7b92ff" target="_blank">
+          <button id="croissant"><strong>recipe</strong></button>
+          </a>
+        </div>
+        <div id="square">
+          <h2 class="txt-croissant"><strongc>bouillabaisse</strongc></h2>
+          <a href="https://www.taste.com.au/recipes/bouillabaisse-6/7051ec2a-f501-4c86-8848-a054a9ba3ad3" target="_blank">
+          <button id="croissant"><strong>recipe</strong></button>
+          </a>
+        </div>
+        <div id="square">
+          <h2 class="txt-croissant"><strongc>chicken confit</strongc></h2>
+          <a href="https://www.taste.com.au/recipes/chicken-confit-sauce-vierge/920ec67d-f148-4398-b07b-b8c990eb04a2" target="_blank">
+          <button id="croissant"><strong>recipe</strong></button>
+          </a>
+        </div>
+        <div id="square">
+          <h2 class="txt-croissant"><strongc>quiche lorraine</strongc></h2>
+          <a href="https://www.taste.com.au/recipes/classic-quiche-lorraine/8e4d2010-2872-4a86-b792-c20d5e09b2c1" target="_blank">
+          <button id="croissant"><strong>recipe</strong></button>
+          </a>
+        </div>
+        <div id="square">
+          <h2 class="txt-croissant"><strongc>souffle</strongc></h2>
+          <a href="https://www.taste.com.au/recipes/roasted-banana-souffles/cabf89de-d610-4a78-85c6-d8af80f8051c" target="_blank">
+          <button id="croissant"><strong>recipe</strong></button>
+          </a>
+        </div>
+        </div>
+</div>
+
     );
   }
+  
 }
-
 export default Game;
