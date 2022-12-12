@@ -2,6 +2,7 @@ import React from "react";
 import Board from "./Board";
 import "../index.css";
 import log from "./img-second/logo.png"
+import Switch from "./Button";
 
 
 
@@ -311,7 +312,9 @@ class Game extends React.Component {
           <button class="translation" onClick={ () => {alert("content")}}>
           translation
           </button>
-      
+      <div className="btn">
+         <Switch/>
+      </div>
 
     </div>  
     <img src={log}></img>
