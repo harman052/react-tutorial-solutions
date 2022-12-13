@@ -17,5 +17,12 @@ After forked this project to my Github
 * if you click on button "translation" you will se alert window with translation
 ![first-step](img/1.png)
 ![second-step](img/2.png)
-6) >Added new switch button (Yes or No) ![yesorno](img/yesorno.png)
+6) >Added new switch button (Yes or No) ![yesorno](img/first-place.png)
 Function of this button is really easy, just click on it if you want to visit this place and the button (No) will change color
+![change](img/second-place.png)
+1) > And last component shopping list
+![list](img/list.png)
+just click on checkbox next to things that you have bought
+![bought](img/bought.png)
+8) > Added logo for extra points :)
+![logo](src/components/img-second/logo-added.png)
