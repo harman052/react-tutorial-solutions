@@ -389,6 +389,9 @@ class Game extends React.Component {
     </div> 
     <div>
     </div>
+    <div className="btn">
+      <h4>Male<Checkbox/></h4>
+    </div>
   
      <img src={log}></img>
     </div>
