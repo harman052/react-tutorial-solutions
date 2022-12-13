@@ -151,4 +151,34 @@ h4 {
 
 .translation {
   height: 25px;
+  margin-bottom: 10px;
+}
+
+img {
+  margin-top: 10px;
+}
+
+#first {
+  height: 300px;
+  width: 350px;
+  display: flex;
+}
+
+#try {
+  color: #ffffff;
+  background-color: rgb(136, 88, 212);
+  padding-inline-start: 5px;
+}
+
+.places {
+  display: flex;
+}
+
+#places {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.list {
+  background-color: rgb(223, 190, 255);
 }

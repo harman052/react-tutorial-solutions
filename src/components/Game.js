@@ -371,7 +371,7 @@ class Game extends React.Component {
       </div>
 
       <div className="btn">
-        <h4> <Switch/> </h4>
+        <h4>Yes <Switch/> No</h4>
       </div>
 
       <h4 id="try">Mont Saint-Michel</h4>
@@ -385,12 +385,12 @@ class Game extends React.Component {
         <h4>Yes <Switch/> No</h4>
       </div>
 
-      <h3>French meme</h3>
+      <h3>Shopping list</h3>
     </div> 
     <div>
     </div>
     <div className="btn">
-      <h4>Male<Checkbox/></h4>
+      <h4><Checkbox/></h4>
     </div>
   
      <img src={log}></img>
