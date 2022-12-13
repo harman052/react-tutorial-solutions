@@ -162,6 +162,7 @@ img {
   height: 300px;
   width: 350px;
   display: flex;
+  border: 3px solid black;
 }
 
 #try {
@@ -181,4 +182,23 @@ img {
 
 .list {
   background-color: rgb(223, 190, 255);
+}
+
+.shopping-list {
+  background-color: rgb(216, 198, 255);
+  border: 2px solid black;
+  width: 250px;
+  height: 290px;
+}
+
+.shopping-btn {
+  text-align: center;
+}
+
+.check {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 40px;
+  margin-bottom: -20px;
+
 }
