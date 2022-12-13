@@ -187,8 +187,9 @@ img {
 .shopping-list {
   background-color: rgb(216, 198, 255);
   border: 2px solid black;
-  width: 250px;
-  height: 290px;
+  width: 500px;
+  height: 600px;
+  text-align: center
 }
 
 .shopping-btn {
@@ -197,8 +198,6 @@ img {
 
 .check {
   font-size: 30px;
-  text-align: center;
-  margin-left: 40px;
-  margin-bottom: -20px;
+  margin-left: 150px;
 
 }

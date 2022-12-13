@@ -7,7 +7,6 @@ import louvre from "./img-second/louvre.jpeg"
 import versailles from "./img-second/versailles.jpeg"
 import azure from "./img-second/azure.jpeg"
 import michel from "./img-second/michel.jpeg"
-import vine from "./img-second/vine.jpeg"
 import Switch from "./Button";
 import Checkbox from "./Checkbox";
 
@@ -385,17 +384,24 @@ class Game extends React.Component {
       <div className="btn">
         <h4>Yes <Switch/> No</h4>
       </div>
+      
 
-      <h3>Shopping list</h3>
-      </div> 
+      <h3>Whats to buy</h3>
+      
       <div class="shopping-list">
-        <h5 class="check">Clothes</h5>
+        <h5 class="check">Shopping list</h5>
       <div class="shopping-btn">
-      <h4 class="list-txt">Prada dress<Checkbox/></h4>
-      <h4 class="list-txt">Gucci skirt  <Checkbox/></h4>
-      <h4 class="list-txt">Dior Blazer<Checkbox/></h4>
+      <h4 class="list-txt">Parfume<Checkbox/></h4>
+      <h4 class="list-txt">Gucci bag<Checkbox/></h4>
+      <h4 class="list-txt">Parmezan<Checkbox/></h4>
+      <h4 class="list-txt">Great vine<Checkbox/></h4>
+      <h4 class="list-txt">Red lipstick<Checkbox/></h4>
+      <h4 class="list-txt">Black blazer<Checkbox/></h4>
       </div>
+      
+      
       </div>
+      </div> 
   
      <img src={log}></img>
     </div>
