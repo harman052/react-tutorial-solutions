@@ -8,6 +8,8 @@ import versailles from "./img-second/versailles.jpeg"
 import azure from "./img-second/azure.jpeg"
 import michel from "./img-second/michel.jpeg"
 import Switch from "./Button";
+import Checkbox from "./Checkbox";
+
 
 
 
@@ -369,7 +371,7 @@ class Game extends React.Component {
       </div>
 
       <div className="btn">
-        <h4>Yes <Switch/> No</h4>
+        <h4> <Switch/> </h4>
       </div>
 
       <h4 id="try">Mont Saint-Michel</h4>
@@ -382,13 +384,19 @@ class Game extends React.Component {
       <div className="btn">
         <h4>Yes <Switch/> No</h4>
       </div>
-      
-    </div>  
 
+      <h3>French meme</h3>
+    </div> 
+    <div>
+    </div>
+  
      <img src={log}></img>
     </div>
+    
     );
+    
   }
+
   
 }
 
